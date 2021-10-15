@@ -1,0 +1,14 @@
+/* Write your CSS code here */
+.bloglist-con {
+  width: 100%;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.bloglistmain-con {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+}

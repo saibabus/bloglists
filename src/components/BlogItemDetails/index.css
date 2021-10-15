@@ -1,0 +1,76 @@
+/* Write your CSS code here */
+.bloglistmain-con {
+  display: flex;
+  justify-content: center;
+}
+.bloglist-con {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.avt-author-con1 {
+  display: flex;
+  align-items: center;
+}
+.author1 {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+  line-height: 0px;
+}
+.title1 {
+  font-size: 30px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+.content1 {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #8e8e8e;
+}
+.imageUrl1 {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.avatarUrl1 {
+  width: 50px;
+  margin: 10px;
+  border-radius: 25px;
+}
+@media screen and (max-width: 576px) {
+  .avt-author-con1 {
+    display: flex;
+    align-items: center;
+  }
+  .author1 {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: #8e8e8e;
+    line-height: 0px;
+  }
+  .title1 {
+    font-size: 20px;
+    font-family: 'Roboto';
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+  }
+  .content1 {
+    font-size: 12px;
+    font-family: 'Roboto';
+    color: #8e8e8e;
+  }
+  .imageUrl1 {
+    width: 90%;
+    border-radius: 10px;
+  }
+
+  .avatarUrl1 {
+    width: 30px;
+    border-radius: 15px;
+  }
+}
